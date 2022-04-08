@@ -1,15 +1,9 @@
 package com.zhaish.network.image;
 
-import com.baidubce.services.bcc.model.ImageModel;
-import com.zhaish.network.bytes.HexStringUtils;
-import org.apache.commons.io.IOUtils;
-
-import javax.imageio.IIOImage;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
 import javax.imageio.stream.ImageInputStream;
 import java.io.*;
-import java.util.Arrays;
 import java.util.Iterator;
 
 /**
